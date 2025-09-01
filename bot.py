@@ -45,4 +45,4 @@ async def on_modal_submit(interaction: discord.Interaction):
     await interaction.response.send_message("✅ Verification complete! Role assigned.", ephemeral=True)
 
 keep_alive()
-bot.run(os.getenv("TOKEN"))
+bot.run(os.getenv("MTQxMjEzMTUwMjMwNDY1NzUwOQ.G6fvBo.st2EN9mJNATLiYB1a1nDmVfZ-lFgyIwxLP0Fv0"))
