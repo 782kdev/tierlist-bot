@@ -58,4 +58,5 @@ async def on_modal_submit(interaction: discord.Interaction):
     await interaction.response.send_message("✅ Info received! You’ll be pinged when a tester is available.", ephemeral=True)
 
 keep_alive()
-bot.run(os.getenv("MTQxMjEzMTUwMjMwNDY1NzUwOQ.G6fvBo.st2EN9mJNATLiYB1a1nDmVfZ-lFgyIwxLP0Fv0"))
+bot.run(os.getenv("TOKEN"))
+
